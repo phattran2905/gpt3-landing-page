@@ -1,11 +1,11 @@
-import { useState } from "react";
 import "./App.css";
+import { useState } from "react";
 import Navbar from "./scenes/Navbar";
 
 function App() {
 	return (
 		<div className="App">
-			<div>
+			<div className="gradient-bg">
 				<Navbar />
 			</div>
 		</div>
