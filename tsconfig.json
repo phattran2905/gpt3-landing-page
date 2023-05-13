@@ -1,5 +1,8 @@
 {
   "compilerOptions": {
+    "paths": {
+      "@assets/*": ["./src/assets/*"]
+    },
     "target": "ESNext",
     "lib": ["DOM", "DOM.Iterable", "ESNext"],
     "module": "ESNext",
