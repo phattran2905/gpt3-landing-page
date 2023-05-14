@@ -4,7 +4,7 @@ import "./index.css";
 type Props = {};
 function GPT3({}: Props) {
 	return (
-		<section className="section-margin gpt3">
+		<section className="section-padding gpt3">
 			<div className="gpt3__container">
 				<div className="gpt3__definition">
 					<Feature

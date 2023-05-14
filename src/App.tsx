@@ -4,6 +4,7 @@ import Navbar from "./scenes/Navbar";
 import Header from "./scenes/Header";
 import Companies from "./scenes/Companies";
 import GPT3 from "./scenes/GPT3";
+import Features from "./scenes/Features";
 
 function App() {
 	return (
@@ -13,6 +14,7 @@ function App() {
         <Header />
         <Companies />
         <GPT3 />
+        <Features />
 			</div>
 		</div>
 	);

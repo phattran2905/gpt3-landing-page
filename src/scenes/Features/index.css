@@ -1,0 +1,74 @@
+.features {
+  /* ff 3.6+ */
+  background: -moz-radial-gradient(circle at 0% 54%, rgba(15, 66, 121, 1) 0%, rgba(4, 12, 24, 1) 21%, rgba(4, 12, 24, 1) 100%);
+
+  /* safari 5.1+,chrome 10+ */
+  background: -webkit-radial-gradient(circle at 0% 54%, rgba(15, 66, 121, 1) 0%, rgba(4, 12, 24, 1) 21%, rgba(4, 12, 24, 1) 100%);
+
+  /* opera 11.10+ */
+  background: -o-radial-gradient(circle at 0% 54%, rgba(15, 66, 121, 1) 0%, rgba(4, 12, 24, 1) 21%, rgba(4, 12, 24, 1) 100%);
+
+  /* ie 10+ */
+  background: -ms-radial-gradient(circle at 0% 54%, rgba(15, 66, 121, 1) 0%, rgba(4, 12, 24, 1) 21%, rgba(4, 12, 24, 1) 100%);
+
+  /* global 92%+ browsers support */
+  background: radial-gradient(circle at 0% 54%, rgba(15, 66, 121, 1) 0%, rgba(4, 12, 24, 1) 21%, rgba(4, 12, 24, 1) 100%);
+
+}
+
+.features__content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: transparent;
+  margin: 5rem 0;
+}
+
+.features__heading {
+  max-width: 426px;
+}
+
+.features__heading h2.gradient-text{
+  font-weight: 800;
+  font-size: 34px;
+  line-height: 45px;
+}
+
+.features__heading p{
+  margin: 2rem 0;
+  color: #FF8A71;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.features__list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}
+
+.features__list--item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  column-gap: 5rem;
+}
+
+.features__list--item .feature__title {
+  max-width: 182px;
+}
+
+.features__list--item .feature__title p {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.features__list--item .feature__text {
+  max-width: 334px;
+}
+
+.features__list--item .feature__text {
+  font-size: 14px;
+  line-height: 24px;
+}
