@@ -3,6 +3,7 @@ import { useState } from "react";
 import Navbar from "./scenes/Navbar";
 import Header from "./scenes/Header";
 import Companies from "./scenes/Companies";
+import GPT3 from "./scenes/GPT3";
 
 function App() {
 	return (
@@ -11,6 +12,7 @@ function App() {
 				<Navbar />
         <Header />
         <Companies />
+        <GPT3 />
 			</div>
 		</div>
 	);
