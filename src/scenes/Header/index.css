@@ -1,0 +1,91 @@
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.header__content {
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header__illustration {
+  position: absolute;
+  right: 4rem;
+  top: 0;
+  background-color: transparent;
+}
+
+.header__illustration img {
+  width: 667.41px;
+  height: 701.59px;
+}
+
+.header__heading {
+  font-size: 62px;
+  line-height: 75px;
+  font-weight: 800;
+  letter-spacing: -0.04em;
+}
+
+.header__text {
+  margin: 2rem 0;
+  color: #81AFDD;
+  font-size: 20px;
+  line-height: 27px;
+}
+
+.header__form,
+.header__form form {
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+
+.header__form input[type="email"],
+.header__form input[type="text"] {
+  width: 70%;
+  padding: 1rem 2rem;
+  background-color: #052D56;
+  border: none;
+  outline: none;
+  caret-color: #ffffff;
+  color: #ffffff;
+}
+
+.header__form input[type="email"]::placeholder,
+.header__form input[type="text"]::placeholder {
+  color: #3D6184;
+
+}
+
+.header__form button[type="submit"] {
+  padding: 1rem 2rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 3px;
+  background-color: #FF4820;
+  color: #ffffff;
+}
+
+.header__members {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.header__people-avatars {
+  height: 38px;
+  margin-right: 1rem;
+}
+
+.header__joined-members {
+  color: #ffffff;
+  font-size: 12px;
+  line-height: 38px;
+}

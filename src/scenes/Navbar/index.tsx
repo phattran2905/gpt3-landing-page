@@ -5,7 +5,7 @@ type Props = {};
 
 function Navbar({}: Props) {
 	return (
-		<nav>
+		<nav className="section-padding">
 			<div className="navbar">
 				<a
 					href="#"

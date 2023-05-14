@@ -37,3 +37,11 @@ a {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+.section-padding {
+  padding: 2rem 4rem;
+}
+
+.section-margin {
+  margin: 2rem 4rem;
+}
