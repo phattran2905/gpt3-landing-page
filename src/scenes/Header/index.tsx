@@ -14,7 +14,7 @@ function Header({}: Props) {
 	return (
 		<section className="section-padding header">
 			{/* Content */}
-			<div className="section-padding header__content">
+			<div className="header__content">
 				<h1 className="gradient-text header__heading">
 					Let's Build Something amazing with GPT-3 OpenAI
 				</h1>
