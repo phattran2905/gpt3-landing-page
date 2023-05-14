@@ -1,5 +1,5 @@
 import "./index.css";
-import HeaderIllustration from "@assets/header-illustration.png";
+import AIIllustration from "@assets/ai.png";
 import PeopleAvatars from "@assets/people-avatars.png";
 import { useState } from "react";
 
@@ -12,9 +12,9 @@ function Header({}: Props) {
 	};
 
 	return (
-		<section className="section-padding section-margin header">
+		<section className="section-padding header">
 			{/* Content */}
-			<div className="header__content">
+			<div className="section-padding header__content">
 				<h1 className="gradient-text header__heading">
 					Let's Build Something amazing with GPT-3 OpenAI
 				</h1>
@@ -61,8 +61,8 @@ function Header({}: Props) {
 			{/* Illustration */}
 			<div className="header__illustration">
 				<img
-					src={HeaderIllustration}
-					alt="Header Illustration"
+					src={AIIllustration}
+					alt="AI Illustration"
 				/>
 			</div>
 		</section>

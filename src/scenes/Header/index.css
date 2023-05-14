@@ -5,6 +5,7 @@
   justify-content: space-between;
   align-items: center;
   position: relative;
+
 }
 
 .header__content {
@@ -17,8 +18,7 @@
 .header__illustration {
   position: absolute;
   right: 4rem;
-  top: 0;
-  background-color: transparent;
+
 }
 
 .header__illustration img {
