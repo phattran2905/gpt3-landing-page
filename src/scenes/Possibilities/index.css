@@ -1,0 +1,49 @@
+.possibilities {
+  background: transparent;
+}
+
+.possibilities__container {
+  padding: 0 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  column-gap: 4rem;
+}
+
+.possibilities__img img {
+  max-width: 546px;
+}
+
+.possibilities__content {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  padding: 2rem 0;
+}
+
+.possibilities__title {
+  font-weight: 800;
+  font-size: 34px;
+  line-height: 45px;
+}
+
+.possibilities__desc {
+  color: #81AFDD;
+  margin: 1rem 0;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.possibilities__prompt {
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.possibilities__prompt--1 {
+  color: #71E5FF;
+}
+
+.possibilities__prompt--2 {
+  color: #FF8A71;
+}

@@ -5,6 +5,7 @@ import Header from "./scenes/Header";
 import Companies from "./scenes/Companies";
 import GPT3 from "./scenes/GPT3";
 import Features from "./scenes/Features";
+import Possibilities from "./scenes/Possibilities";
 
 function App() {
 	return (
@@ -15,6 +16,7 @@ function App() {
         <Companies />
         <GPT3 />
         <Features />
+        <Possibilities />
 			</div>
 		</div>
 	);
