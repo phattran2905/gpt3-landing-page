@@ -1,5 +1,5 @@
 .cta {
-  margin: 5rem 1rem;
+  margin: 2rem 1rem;
 }
 
 .cta__wrapper {
@@ -35,4 +35,11 @@
   padding: 1.5rem 3.5rem;
   background-color: #000000;
   border-radius: 40px;
+}
+
+
+@media screen and (min-width: 1441px) {
+  .cta__wrapper {
+    justify-content: space-around;
+  }
 }

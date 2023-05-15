@@ -1,18 +1,5 @@
 .features {
-  /* ff 3.6+ */
-  background: -moz-radial-gradient(circle at 0% 54%, rgba(15, 66, 121, 1) 0%, rgba(4, 12, 24, 1) 21%, rgba(4, 12, 24, 1) 100%);
-
-  /* safari 5.1+,chrome 10+ */
-  background: -webkit-radial-gradient(circle at 0% 54%, rgba(15, 66, 121, 1) 0%, rgba(4, 12, 24, 1) 21%, rgba(4, 12, 24, 1) 100%);
-
-  /* opera 11.10+ */
-  background: -o-radial-gradient(circle at 0% 54%, rgba(15, 66, 121, 1) 0%, rgba(4, 12, 24, 1) 21%, rgba(4, 12, 24, 1) 100%);
-
-  /* ie 10+ */
-  background: -ms-radial-gradient(circle at 0% 54%, rgba(15, 66, 121, 1) 0%, rgba(4, 12, 24, 1) 21%, rgba(4, 12, 24, 1) 100%);
-
-  /* global 92%+ browsers support */
-  background: radial-gradient(circle at 0% 54%, rgba(15, 66, 121, 1) 0%, rgba(4, 12, 24, 1) 21%, rgba(4, 12, 24, 1) 100%);
+  background: inherit;
 }
 
 .features__content {
@@ -70,4 +57,10 @@
 .features__list--item .feature__text {
   font-size: 0.875rem;
   line-height: 1.5rem;
+}
+
+@media screen and (min-width: 1441px) {
+  .features__content {
+    justify-content: space-around;
+  }
 }

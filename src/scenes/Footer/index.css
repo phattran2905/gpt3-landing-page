@@ -37,15 +37,7 @@
   flex-direction: row;
   justify-content: space-between;
   padding: 1rem 4rem;
-  /* gap: 10rem; */
 }
-
-/* .footer__brand,
-.footer__links,
-.footer__company,
-.footer__GIT {
-  flex-basis: 25%;
-} */
 
 .footer__brand p {
   margin: 2rem 0;
@@ -83,4 +75,10 @@
   font-size: 0.75rem;
   margin: auto;
   text-align: center;
+}
+
+@media screen and (min-width: 1441px) {
+  .footer__nav {
+    padding: 0 16rem;
+  }
 }

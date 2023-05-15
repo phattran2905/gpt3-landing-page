@@ -57,9 +57,19 @@ a {
 }
 
 .section-padding {
-  padding: 2rem 4rem;
+  padding: 3rem 8rem;
 }
 
 .section-margin {
-  margin: 2rem 4rem;
+  margin: 3rem 8rem;
+}
+
+@media screen and (min-width: 1441px) {
+  .section-margin {
+    padding: 6rem 16rem;
+  }
+
+  .section-padding {
+    padding: 6rem 16rem;
+  }
 }

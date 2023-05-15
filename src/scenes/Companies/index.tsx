@@ -9,7 +9,7 @@ import Company from "../../components/Company";
 type Props = {}
 function Companies({}: Props) {
   return (
-    <section className="section-padding companies">
+    <section className="companies">
       <div className="companies__container">
         <ul className="companies__list">
           <li className="companies__item">

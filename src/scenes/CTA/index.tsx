@@ -3,7 +3,7 @@ import './index.css'
 type Props = {}
 function CTA({}: Props) {
   return (
-    <section className='section-margin section-padding cta'>
+    <section className='section-padding cta'>
       <div className='cta__wrapper'>
         <div className='cta__content'>
           <p className='cta__prompt'>Request Early Access to Get Started</p>
