@@ -30,8 +30,8 @@
 .navbar__link a {
   color: #ffffff;
   padding: 0 1rem;
-  line-height: 25px;
-  font-size: 18px;
+  line-height: 1.56rem;
+  font-size: 1.125rem;
   /* font-weight: 500; */
 }
 
@@ -45,8 +45,8 @@
 .navbar__button {
   color: #ffffff;
   padding: 0 1rem;
-  line-height: 25px;
-  font-size: 18px;
+  line-height: 1.56rem;
+  font-size: 1.125rem;
   font-weight: 500;
   outline: none;
   border: none;

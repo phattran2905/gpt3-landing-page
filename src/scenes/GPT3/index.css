@@ -30,7 +30,7 @@
 
 .gpt3__definition div:last-child {
   padding: 1rem;
-  max-width: 731px;
+  max-width: 45rem;
 }
 
 .gpt3__heading {
@@ -42,15 +42,15 @@
 
 .gpt3__heading h2 {
   font-weight: 800;
-  font-size: 34px;
-  line-height: 45px;
-  max-width: 472px;
+  font-size: 2rem;
+  line-height: 2.8rem;
+  max-width: 29.5rem;
 }
 
 .gpt3__heading--cta {
   color: #FF8A71;
-  font-size: 16px;
-  line-height: 30px;
+  font-size: 1rem;
+  line-height: 1.875rem;
   font-weight: 500;
 }
 
@@ -73,5 +73,5 @@
 }
 
 .gpt3__libraries--col div:last-child {
-  max-width: 334px;
+  max-width: 20.875rem;
 }

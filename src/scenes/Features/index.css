@@ -24,20 +24,20 @@
 }
 
 .features__heading {
-  max-width: 426px;
+  max-width: 26rem;
 }
 
 .features__heading h2.gradient-text{
   font-weight: 800;
-  font-size: 34px;
-  line-height: 45px;
+  font-size: 2.125rem;
+  line-height: 2.8rem;
 }
 
 .features__heading p{
   margin: 2rem 0;
   color: #FF8A71;
-  font-size: 16px;
-  line-height: 30px;
+  font-size: 1rem;
+  line-height: 1.875rem;
 }
 
 .features__list {
@@ -55,19 +55,19 @@
 }
 
 .features__list--item .feature__title {
-  max-width: 182px;
+  max-width: 11.3rem;
 }
 
 .features__list--item .feature__title p {
-  font-size: 18px;
-  line-height: 24px;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
 }
 
 .features__list--item .feature__text {
-  max-width: 334px;
+  max-width: 20.875rem;
 }
 
 .features__list--item .feature__text {
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
 }

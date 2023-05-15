@@ -15,7 +15,7 @@
 .feature__title p {
   margin: 0;
   color: #ffffff;
-  font-size: 24px;
+  font-size: 1.5rem;
   padding: 1rem 0;
   font-weight: bold;
   letter-spacing: -0.04em;
@@ -23,6 +23,6 @@
 
 .feature__text {
   color: #81AFDD;
-  font-size: 16px;
-  line-height: 30px;
+  font-size: 1rem;
+  line-height: 1.875rem;
 }
