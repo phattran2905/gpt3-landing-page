@@ -7,6 +7,7 @@ import GPT3 from "./scenes/GPT3";
 import Features from "./scenes/Features";
 import Possibilities from "./scenes/Possibilities";
 import CTA from "./scenes/CTA";
+import Blogs from "./scenes/Blogs";
 
 function App() {
 	return (
@@ -19,6 +20,7 @@ function App() {
         <Features />
         <Possibilities />
         <CTA />
+        <Blogs />
 			</div>
 		</div>
 	);

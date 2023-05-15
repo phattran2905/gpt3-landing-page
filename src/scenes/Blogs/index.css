@@ -1,0 +1,26 @@
+.blogs {
+  
+}
+
+.blogs__title {
+  padding: 0 1rem;
+}
+
+.blogs__title h2{
+  font-size: 62px;
+  line-height: 75px;
+  max-width: 70%;
+  letter-spacing: -0.04em;
+}
+
+.blogs__articles {
+  margin: 5rem 0;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.blogs__article--stretch {
+  grid-row: 1/ span 2;
+}
