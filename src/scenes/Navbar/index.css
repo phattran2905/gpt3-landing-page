@@ -74,3 +74,86 @@
   color: #ffffff;
   background: var(--gradient-text);
 }
+
+@media screen and (max-width: 1200px) {
+  .navbar {
+    justify-content: space-between;
+  }
+
+  .navbar__nav {
+    display: none;
+  }
+
+  .navbar__menu {
+    /* overflow-y: hidden; */
+  }
+
+  .navbar__menu--toggled {
+    background-color: #FF4820;
+    position: relative;
+  }
+
+  .navbar__icon--wrapper {
+    display: block;
+    color: #ffffff;
+    padding: 0.5rem;
+    font-weight: bold;
+  }
+
+  .navbar__icon {
+    width: 2rem;
+    height: 2rem;
+    color: #ffffff;
+  }
+
+  .navbar__nav.navbar__items--toggled {
+    position: absolute;
+    top: 3.5rem;
+    right: 0rem;
+    width: 16rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #031B34;
+    z-index: 20;
+  }
+
+  .navbar__nav.navbar__items--toggled .navbar_items {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .navbar__items--toggled .navbar__items {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .navbar__items--toggled .navbar__items .navbar__link {
+    padding: 1rem 2rem;
+  }
+
+  .navbar_buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .navbar__button {
+    padding: 1rem 2rem;
+  }
+
+  .navbar__button.navbar__button--cta {
+    padding: 1rem 2rem;
+    border-radius: 0px;
+    margin-left: 0px;
+    background-color: transparent;
+  }
+
+  .navbar__link a:hover,
+  .navbar__button:hover {
+    color: #ffffff;
+    background: var(--gradient-text);
+  }
+}

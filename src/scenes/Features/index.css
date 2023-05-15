@@ -1,15 +1,25 @@
 .features {
   background: #040C18;
   position: relative;
+  
 }
 
-.features__content::after {
+.features__content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: transparent;
+  margin: 4rem 0;
+}
+
+.features__heading::before {
   content: "";
   position: absolute;
-  width: 25rem;
-  height: 50%;
+  width: 50%;
+  height: 70%;
   top: 0rem;
-  left: -10rem;
+  left: 0rem;
+  z-index: 5;
 
   /* ff 3.6+ */
   background: -moz-radial-gradient(circle at 18% 29%, rgba(15, 66, 121, 1) 0%, rgba(4, 12, 24, 1) 81%, rgba(4, 12, 24, 1) 100%);
@@ -28,17 +38,13 @@
 
 }
 
-.features__content {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  background-color: transparent;
-  margin: 5rem 0;
-}
-
 .features__heading {
   max-width: 26rem;
-  z-index: 10;
+}
+
+.features__heading h2, .features__heading p{
+  position: relative;
+  z-index: 6;
 }
 
 .features__heading h2.gradient-text {
@@ -55,6 +61,7 @@
 }
 
 .features__list {
+  z-index: 6;
   display: flex;
   flex-direction: column;
   row-gap: 2rem;
