@@ -1,5 +1,5 @@
 import "./index.css";
-import Feature from "../Feature";
+import Feature from "../../components/Feature";
 
 type Props = {};
 function Features({}: Props) {

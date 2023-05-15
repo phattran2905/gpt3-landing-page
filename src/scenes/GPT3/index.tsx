@@ -1,4 +1,4 @@
-import Feature from "../Feature";
+import Feature from "../../components/Feature";
 import "./index.css";
 
 type Props = {};
