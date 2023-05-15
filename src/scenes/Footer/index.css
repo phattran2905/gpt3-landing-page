@@ -29,7 +29,11 @@
   font-size: 1.125rem;
   color: #ffffff;
   background-color: transparent;
+}
 
+.footer__cta--button:hover {
+  transition: 0.5s ease-in;
+  background: var(--gradient-text);
 }
 
 .footer__nav {

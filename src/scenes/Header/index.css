@@ -62,13 +62,18 @@
 
 .header__form button[type="submit"] {
   width: 30%;
-  padding: 1rem 2rem;
+  padding: 0.9rem;
+  font-size: 1rem;
   border: none;
   outline: none;
   cursor: pointer;
   border-radius: 3px;
   background-color: #FF4820;
   color: #ffffff;
+}
+
+.header__form button[type="submit"]:hover {
+  background: var(--gradient-text);
 }
 
 .header__members {
