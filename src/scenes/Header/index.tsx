@@ -12,7 +12,7 @@ function Header({}: Props) {
 	};
 
 	return (
-		<section className="section-padding header">
+		<section className="section-padding header" id="home">
 			{/* Content */}
 			<div className="header__content">
 				<h1 className="gradient-text header__heading">

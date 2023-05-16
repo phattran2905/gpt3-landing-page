@@ -10,7 +10,7 @@ type Props = {};
 
 function Blogs({}: Props) {
 	return (
-		<section className="section-padding blogs">
+		<section className="section-padding blogs" id="blogs">
 			<div className="blogs__title">
 				<h2 className="gradient-text">A lot is happening, We are blogging about it.</h2>
 			</div>

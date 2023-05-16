@@ -4,7 +4,7 @@ import PossibilitiesImg from "@assets/possibilities.png";
 type Props = {};
 function Possibilities({}: Props) {
 	return (
-		<section className="section-padding possibilities">
+		<section className="section-padding possibilities" id="possibilities">
 			<div className="possibilities__container">
 				<div className="possibilities__img">
 					<img

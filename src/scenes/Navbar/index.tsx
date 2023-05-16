@@ -9,10 +9,10 @@ function Navbar({}: Props) {
 	const [isToggledMenu, setIsToggledMenu] = useState(false);
 
 	return (
-		<nav className="section-padding">
+		<nav className="">
 			<div className="navbar">
 				<a
-					href="#"
+					href="#home"
 					className="navbar__logo"
 				>
 					<img
@@ -27,16 +27,16 @@ function Navbar({}: Props) {
 							<a href="#home">Home</a>
 						</li>
 						<li className="navbar__link">
-							<a href="#gpt">What is GPT?</a>
+							<a href="#gpt3">What is GPT?</a>
 						</li>
 						<li className="navbar__link">
-							<a href="#openai">Open AI</a>
+							<a href="#features">Case Studies</a>
 						</li>
 						<li className="navbar__link">
-							<a href="#case-studies">Case Studies</a>
+							<a href="#possibilities">Library</a>
 						</li>
 						<li className="navbar__link">
-							<a href="#library">Library</a>
+							<a href="#blogs">Blogs</a>
 						</li>
 					</ul>
 
@@ -49,8 +49,7 @@ function Navbar({}: Props) {
 				<div className="navbar__menu">
 					{!isToggledMenu && (
 						<a
-            className="navbar__icon--wrapper"
-							href="#"
+							className="navbar__icon--wrapper"
 							onClick={() => setIsToggledMenu(true)}
 						>
 							<Bars3Icon className="navbar__icon" />
@@ -60,8 +59,7 @@ function Navbar({}: Props) {
 					{isToggledMenu && (
 						<div className="navbar__menu--toggled">
 							<a
-              className="navbar__icon--wrapper"
-								href="#"
+								className="navbar__icon--wrapper"
 								onClick={() => setIsToggledMenu(false)}
 							>
 								<XMarkIcon className="navbar__icon" />
@@ -73,16 +71,16 @@ function Navbar({}: Props) {
 										<a href="#home">Home</a>
 									</li>
 									<li className="navbar__link">
-										<a href="#gpt">What is GPT?</a>
+										<a href="#gpt3">What is GPT?</a>
 									</li>
 									<li className="navbar__link">
-										<a href="#openai">Open AI</a>
+										<a href="#features">Case Studies</a>
 									</li>
 									<li className="navbar__link">
-										<a href="#case-studies">Case Studies</a>
+										<a href="#possibilities">Library</a>
 									</li>
 									<li className="navbar__link">
-										<a href="#library">Library</a>
+										<a href="#blogs">Blogs</a>
 									</li>
 								</ul>
 

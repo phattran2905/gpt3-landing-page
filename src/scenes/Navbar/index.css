@@ -1,3 +1,12 @@
+nav {
+  padding: 2rem 3rem;
+  top: 0;
+  position: fixed;
+  width: 100%;
+  background-color: #031B34;
+  z-index: 100;
+}
+
 .navbar {
   display: flex;
   flex-direction: row;
