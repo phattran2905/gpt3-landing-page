@@ -39,33 +39,40 @@ a {
   -webkit-text-fill-color: transparent;
 }
 
-.section-margin {
-  padding: 6rem 16rem;
+.section-padding {
+  padding: 1rem 2rem;
 }
 
-.section-padding {
-  padding: 6rem 16rem;
+.section-margin {
+  margin: 1rem 2rem;
 }
 
 @media screen and (min-width: 1440px) {
+  .section-margin {
+    padding: 4rem 8rem;
+  }
+  
+  .section-padding {
+    padding: 4rem 8rem;
+  }  
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (max-width: 1200px) {
   .section-padding {
-    padding: 2rem 6rem;
+    padding: 1.5rem 4.5rem;
   }
   
   .section-margin {
-    margin: 2rem 6rem;
+    padding: 1.5rem 4.5rem;
   }
 }
 
 @media screen and (max-width: 768px) {
   .section-padding {
-    padding: 1rem 3rem;
+    padding: 1rem 2rem;
   }
   
   .section-margin {
-    margin: 1rem 3rem;
+    margin: 1rem 2rem;
   }
 }

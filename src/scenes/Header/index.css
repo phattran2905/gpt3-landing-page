@@ -41,7 +41,6 @@
 .header__form,
 .header__form form {
   width: 100%;
-  margin-bottom: 1.5rem;
 }
 
 .header__form input[type="email"],
@@ -80,6 +79,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  margin-top: 1.5rem;
 }
 
 .header__people-avatars {
@@ -91,4 +91,21 @@
   color: #ffffff;
   font-size: 0.75rem;
   line-height: 2.375rem;
+}
+
+@media screen and (max-width: 1200px) {
+  .header__form form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header__form input[type="email"],
+  .header__form input[type="text"],
+  .header__form button[type="submit"] {
+    width: 100%;
+  }
+
+  .header__members {
+    flex-direction: column;
+  }
 }

@@ -86,3 +86,20 @@
     padding: 0 16rem;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .footer__nav {
+    flex-direction: column;
+  }
+
+  .footer__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+  }
+
+  .footer__copyright {
+    margin-top: 0;
+  }
+}

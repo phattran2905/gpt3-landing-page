@@ -24,3 +24,28 @@
 .blogs__article--stretch {
   grid-row: 1/ span 2;
 }
+
+@media screen and (max-width: 1200px) {
+  .blogs__title h2 {
+    max-width: 100%;
+    margin: 1.5rem 0;
+  }
+
+  .blogs__articles {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .blogs__title h2 {
+    max-width: 100%;
+    margin: 1.5rem 0;
+  }
+
+  .blogs__articles {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+}
+
