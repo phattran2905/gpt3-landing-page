@@ -7,7 +7,7 @@ function Footer({}: Props) {
 		<footer className="footer">
 			<div className="footer__cta">
 				<h4 className="gradient-text footer__cta--title">Do you want to step into the future before others?</h4>
-				<button className="footer__cta--button">Request Early Access</button>
+				<a href="#home" className="footer__cta--button">Request Early Access</a>
 			</div>
 
 			<div className="footer__nav">

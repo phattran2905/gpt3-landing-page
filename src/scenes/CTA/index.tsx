@@ -11,7 +11,7 @@ function CTA({}: Props) {
         </div>
         
         <div className='cta__button'>
-          <button>Get Started</button>
+          <a href='#home'>Get Started</a>
         </div>
       </div>
     </section>

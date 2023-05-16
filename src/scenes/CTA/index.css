@@ -26,18 +26,17 @@
   font-weight: bold;
 }
 
-.cta__button button {
-  outline: none;
-  border: none;
+.cta__button a {
   cursor: pointer;
   color: #fffbfb;
   font-size: 1.125rem;
   padding: 1.2rem 3.5rem;
   background-color: #000000;
   border-radius: 40px;
+  font-weight: bold;
 }
 
-.cta__button button:hover {
+.cta__button a:hover {
   background-color: #ffffff;
   color: #000000;
   border: 3px solid #000000;
@@ -55,7 +54,7 @@
     font-size: 1.2rem;
   }
 
-  .cta__button button {
+  .cta__button a {
     padding: 1rem 2.5rem;
     font-size: 1rem;
   }
@@ -70,6 +69,6 @@
   }
 
   .cta__button {
-    margin-top: 1rem;
+    margin: 1.5rem 0;
   }
 }

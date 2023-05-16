@@ -8,11 +8,18 @@ function Header({}: Props) {
 	const [email, setEmail] = useState<string>();
 
 	const onSubmit = (e: any) => {
-    const newValue = e.currentTarget.value;
+		const mailFormat =
+			/^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|.(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+		if (email && !email.toLowerCase().match(mailFormat)) {
+			e.preventDefault();
+		}
 	};
 
 	return (
-		<section className="section-padding header" id="home">
+		<section
+			className="section-padding header"
+			id="home"
+		>
 			{/* Content */}
 			<div className="header__content">
 				<h1 className="gradient-text header__heading">
@@ -26,15 +33,16 @@ function Header({}: Props) {
 
 				<div className="header__form">
 					<form
-						action=""
-						method="GET"
+						target="_blank"
 						onSubmit={onSubmit}
+						action="https://formsubmit.io/send/614d956a-220b-48bd-9620-b7bdb6fe8aaf"
+						method="POST"
 					>
 						<input
 							type="email"
 							name="email"
 							value={email}
-              onChange={(e) => setEmail(e.currentTarget.value)}
+							onChange={(e) => setEmail(e.currentTarget.value)}
 							placeholder="Your Email Address"
 						/>
 						<button
