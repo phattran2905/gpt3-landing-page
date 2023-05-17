@@ -8,12 +8,16 @@ import Possibilities from "./scenes/Possibilities";
 import CTA from "./scenes/CTA";
 import Blogs from "./scenes/Blogs";
 import Footer from "./scenes/Footer";
+import { SelectedPage } from "./shared/types";
+import { useState } from "react";
 
 function App() {
+  const [selectedPage, setSelectedPage] = useState<SelectedPage>(SelectedPage.Home)
+
 	return (
 		<div className="App">
 			<div className="gradient-bg">
-				<Navbar />
+				<Navbar selectedPage={selectedPage} setSelectedPage={setSelectedPage} />
         <Header />
         <Companies />
         <GPT3 />

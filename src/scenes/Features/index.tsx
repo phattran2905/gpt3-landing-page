@@ -1,10 +1,11 @@
 import "./index.css";
 import Feature from "../../components/Feature";
+import { SelectedPage } from "../../shared/types";
 
 type Props = {};
 function Features({}: Props) {
 	return (
-		<section className="section-padding features" id="features">
+		<section className="section-padding features" id={SelectedPage.CaseStudies}>
 			<div className="features__content">
 				<div className="features__heading">
 					<h2 className="gradient-text">

@@ -1,10 +1,11 @@
+import { SelectedPage } from "../../shared/types";
 import "./index.css";
 import PossibilitiesImg from "@assets/possibilities.png";
 
 type Props = {};
 function Possibilities({}: Props) {
 	return (
-		<section className="section-padding possibilities" id="possibilities">
+		<section className="section-padding possibilities" id={SelectedPage.Library}>
 			<div className="possibilities__container">
 				<div className="possibilities__img">
 					<img

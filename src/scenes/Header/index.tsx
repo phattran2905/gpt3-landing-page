@@ -2,6 +2,7 @@ import "./index.css";
 import AIIllustration from "@assets/ai.png";
 import PeopleAvatars from "@assets/people-avatars.png";
 import { useState } from "react";
+import { SelectedPage } from "../../shared/types";
 
 type Props = {};
 function Header({}: Props) {
@@ -18,7 +19,7 @@ function Header({}: Props) {
 	return (
 		<section
 			className="section-padding header"
-			id="home"
+			id={SelectedPage.Home}
 		>
 			{/* Content */}
 			<div className="header__content">

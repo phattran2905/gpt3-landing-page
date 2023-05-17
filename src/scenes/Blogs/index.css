@@ -2,6 +2,10 @@
   background: #040C18;
 }
 
+.blogs__content {
+  margin-top: 2rem;
+}
+
 .blogs__title {
   padding: 0 1rem;
 }

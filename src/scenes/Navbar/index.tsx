@@ -2,17 +2,22 @@ import "./index.css";
 import { useState } from "react";
 import Logo from "@assets/GPT-3.png";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import { SelectedPage } from "../../shared/types";
+import Link from "../../components/Link";
 
-type Props = {};
+type Props = {
+	selectedPage: SelectedPage;
+	setSelectedPage: (value: SelectedPage) => void;
+};
 
-function Navbar({}: Props) {
+function Navbar({ selectedPage, setSelectedPage }: Props) {
 	const [isToggledMenu, setIsToggledMenu] = useState(false);
 
 	return (
 		<nav className="">
 			<div className="navbar">
 				<a
-					href="#home"
+					href=""
 					className="navbar__logo"
 				>
 					<img
@@ -24,19 +29,39 @@ function Navbar({}: Props) {
 				<div className="navbar__nav">
 					<ul className="navbar__items">
 						<li className="navbar__link">
-							<a href="#home">Home</a>
+							<Link
+								page={"Home"}
+								selectedPage={selectedPage}
+								setSelectedPage={setSelectedPage}
+							/>
 						</li>
 						<li className="navbar__link">
-							<a href="#gpt3">What is GPT?</a>
+							<Link
+								page={"What is GPT"}
+								selectedPage={selectedPage}
+								setSelectedPage={setSelectedPage}
+							/>
 						</li>
 						<li className="navbar__link">
-							<a href="#features">Case Studies</a>
+							<Link
+								page={"Case Studies"}
+								selectedPage={selectedPage}
+								setSelectedPage={setSelectedPage}
+							/>
 						</li>
 						<li className="navbar__link">
-							<a href="#possibilities">Library</a>
+							<Link
+								page={"Library"}
+								selectedPage={selectedPage}
+								setSelectedPage={setSelectedPage}
+							/>
 						</li>
 						<li className="navbar__link">
-							<a href="#blogs">Blogs</a>
+							<Link
+								page={"Blogs"}
+								selectedPage={selectedPage}
+								setSelectedPage={setSelectedPage}
+							/>
 						</li>
 					</ul>
 
@@ -68,26 +93,47 @@ function Navbar({}: Props) {
 							<div className="navbar__nav navbar__items--toggled">
 								<ul className="navbar__items">
 									<li className="navbar__link">
-										<a href="#home">Home</a>
+										<Link
+											page={"Home"}
+											selectedPage={selectedPage}
+											setSelectedPage={setSelectedPage}
+										/>
 									</li>
 									<li className="navbar__link">
-										<a href="#gpt3">What is GPT?</a>
+										<Link
+											page={"What is GPT"}
+											selectedPage={selectedPage}
+											setSelectedPage={setSelectedPage}
+										/>
 									</li>
 									<li className="navbar__link">
-										<a href="#features">Case Studies</a>
+										<Link
+											page={"Case Studies"}
+											selectedPage={selectedPage}
+											setSelectedPage={setSelectedPage}
+										/>
 									</li>
 									<li className="navbar__link">
-										<a href="#possibilities">Library</a>
+										<Link
+											page={"Library"}
+											selectedPage={selectedPage}
+											setSelectedPage={setSelectedPage}
+										/>
 									</li>
 									<li className="navbar__link">
-										<a href="#blogs">Blogs</a>
+										<Link
+											page={"Blogs"}
+											selectedPage={selectedPage}
+											setSelectedPage={setSelectedPage}
+										/>
+									</li>
+									<li className="navbar__link">
+										<a className="navbar__link">Sign In</a>
+									</li>
+									<li className="navbar__link">
+										<a className="navbar__link">Sign Up</a>
 									</li>
 								</ul>
-
-								<div className="navbar_buttons">
-									<button className="navbar__button">Sign In</button>
-									<button className="navbar__button navbar__button--cta">Sign Up</button>
-								</div>
 							</div>
 						</div>
 					)}

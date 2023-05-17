@@ -1,10 +1,11 @@
 nav {
-  padding: 2rem 3rem;
+  width: 100%;
+  padding: 1.5rem 2rem;
   top: 0;
   position: fixed;
   width: 100%;
   background-color: #031B34;
-  z-index: 100;
+  z-index: 30;
 }
 
 .navbar {
@@ -37,6 +38,14 @@ nav {
 
 .navbar__link a {
   color: #ffffff;
+  padding: 1rem;
+  line-height: 1.56rem;
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+
+.navbar__link--selected a {
+  color: #FF4820;
   padding: 1rem;
   line-height: 1.56rem;
   font-size: 1.125rem;
@@ -117,12 +126,15 @@ nav {
 
   .navbar__nav.navbar__items--toggled {
     position: absolute;
-    top: 3.5rem;
-    right: 0rem;
-    width: 16rem;
+    top: 4rem;
+    right: -2rem;
+    width: 50vw;
+    height: 100vh;
     padding: 1rem;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
     background-color: #031B34;
     z-index: 20;
   }
@@ -133,6 +145,8 @@ nav {
   }
 
   .navbar__items--toggled .navbar__items {
+    width: 100%;
+    margin: 2rem 0;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -140,28 +154,13 @@ nav {
   }
 
   .navbar__items--toggled .navbar__items .navbar__link {
-    padding: 1rem 2rem;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    padding: 0.85rem;
   }
 
-  .navbar_buttons {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-
-  .navbar__button {
-    padding: 1rem 2rem;
-  }
-
-  .navbar__button.navbar__button--cta {
-    padding: 1rem 2rem;
-    border-radius: 0px;
-    margin-left: 0px;
-    background-color: transparent;
-  }
-
-  .navbar__link a:hover,
-  .navbar__button:hover {
+  .navbar__link a:hover {
     color: #ffffff;
     background: var(--gradient-text);
   }
